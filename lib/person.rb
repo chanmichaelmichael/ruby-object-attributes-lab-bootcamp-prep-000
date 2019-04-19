@@ -1,17 +1,17 @@
 class Person
   def name
-    @this_person_name
+    @name
   end
   
   def name=(input)
-    @this_dogs_name = input
+    @name = input
   end
   
-  def breed
-    @this_dogs_breed
+  def job
+    @job
   end
   
-  def breed=(input)
-    @this_dogs_breed = input
+  def job=(input)
+    @job = input
   end
 end
